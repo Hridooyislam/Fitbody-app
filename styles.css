@@ -633,6 +633,11 @@ body {
         box-shadow: 0 4px 12px rgba(0,0,0,0.08);
         object-fit: contain;
     }
+
+    .nav-links a {
+        margin: 0 auto;
+        text-align: center;
+    }
 }
 
 /* Animations */
