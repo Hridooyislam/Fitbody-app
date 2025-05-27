@@ -3,7 +3,7 @@ const mobileMenuBtn = document.querySelector('.mobile-menu');
 const navLinks = document.querySelector('.nav-links');
 
 mobileMenuBtn.addEventListener('click', () => {
-    navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+    navLinks.classList.toggle('open');
 });
 
 // Smooth Scrolling for Navigation Links
@@ -136,8 +136,4 @@ window.addEventListener('scroll', () => {
         navbar.classList.add('scroll-up');
     }
     lastScroll = currentScroll;
-});
-
-.mobile-app-images {
-    display: none;
-} 
+}); 
