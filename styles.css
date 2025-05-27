@@ -603,7 +603,7 @@ body {
         display: none;
     }
     .mobile-app-images {
-        display: flex;
+        display: flex !important;
         flex-direction: column;
         gap: 1.5rem;
         align-items: center;
@@ -633,4 +633,8 @@ body {
 
 .hero-content, .feature-card, .testimonial-card {
     animation: fadeIn 1s ease-out;
+}
+
+.mobile-app-images {
+    display: none;
 } 

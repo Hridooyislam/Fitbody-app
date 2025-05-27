@@ -136,4 +136,8 @@ window.addEventListener('scroll', () => {
         navbar.classList.add('scroll-up');
     }
     lastScroll = currentScroll;
-}); 
+});
+
+.mobile-app-images {
+    display: none;
+} 
