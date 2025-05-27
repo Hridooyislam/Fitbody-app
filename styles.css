@@ -505,6 +505,7 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
     text-decoration: none;
+    color: var(--white);
 }
 
 .footer-links a {
@@ -573,6 +574,48 @@ body {
 
     .newsletter {
         margin-top: 2rem;
+    }
+
+    .hero {
+        padding-left: 0.4rem;
+        padding-right: 0.4rem;
+    }
+
+    .carousel-container {
+        max-width: 100vw;
+        height: 300px;
+    }
+
+    .carousel-slide {
+        width: 100vw !important;
+    }
+
+    .carousel-slide img {
+        width: 100vw;
+        max-width: 100vw;
+        height: 100%;
+        max-height: 300px;
+        object-fit: contain;
+        display: block;
+    }
+
+    .screenshot-carousel {
+        display: none;
+    }
+    .mobile-app-images {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .mobile-app-images img {
+        width: 90vw;
+        max-width: 400px;
+        height: auto;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        object-fit: contain;
     }
 }
 
